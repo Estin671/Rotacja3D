@@ -1,1 +1,1 @@
-g++ -o world main.cpp -Iinclude -Llib -lraylib -lopengl32 -lgdi32 -lwinmm
+g++ -o world main.cpp lib/object.cpp -Iinclude -Llib -lraylib -lopengl32 -lgdi32 -lwinmm
